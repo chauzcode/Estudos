@@ -1,0 +1,7 @@
+<!-- tag i e em: em tem efeito semântico, dá ênfase ao texto. Mas as duas tem efeito 
+    visual idêntico, mas diferem na semântica -->
+
+    
+<!-- tag b e strong: strong tem um significado, deixa ele mais forte, por isso difere 
+da tag b (bold) que só causa efeito visual ,
+ o que muda é a semântica -->

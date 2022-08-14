@@ -1,0 +1,5 @@
+validator.w3.org
+    Auxilia na validação do código html verificando e emitindo recomendações.
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
+    todos os elementos HTML

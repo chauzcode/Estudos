@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <style>
+         h1 {
+            background: red;
+         }
+         #cabecalho-um {
+            background:purple;            
+         }
+         .fundo-vermelho{
+            background:blue;
+         }
+         .bold{
+            color:aliceblue;
+            background-color: black;
+         }
+
+      </style>
+   </head>
+   <body>
+      <h1 id="heading">Bags</h1>
+      <!-- atributo id é único, não pode ser repetido -->
+      <h1 class="subtitle">Bagging</h2>
+      <h1 class="subtitle">Bagging</h2>
+      <!-- o atributo class pode ser repetido -->
+      <h1 id="cabecalho-um" class="fundo-vermelho">Bag</h1>
+      <p> um texto <b class="bold">exemplo</b> qualquer</p>
+   </body>
+</html>
+
+<!-- as tags possuem em maioria, a forma <tag atributo="valor"> -->
+<!-- ID tem especificidade muito forte, sobrepõe mudanças class -->
+<!-- optar pela CLASS para mudar vários elementos -->
+<!-- optar pela ID para definir apenas um elemento principal, muito específico -->

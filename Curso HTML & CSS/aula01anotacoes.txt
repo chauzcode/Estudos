@@ -1,0 +1,15 @@
+ESTRUTURAÇÃO ------------
+
+<tag mother>
+   <tag children 1></tag>
+   <tag children 2></tag>
+   <tag children 3></tag>
+</tag>
+
+PADRÕES DE TAG: COM CORPO E SEM CORPO ------------
+
+<tagcomcorpo>
+   <eusouocorpo></eusouocorpo>
+</tagcomcorpo>
+
+<tagsemcorpo attributo="valor1 valor2"> </tagsemcorpo>
