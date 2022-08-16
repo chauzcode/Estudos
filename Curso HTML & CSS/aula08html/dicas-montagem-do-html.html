@@ -1,0 +1,71 @@
+<!-- por padrão, resete margin e padding para 0 com o seletor * -->
+<!-- preferencialmente adicionar também o box-sizing:border-box -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+
+        nav {
+            display: flex;
+            list-style: none;
+            background: black;
+        }
+
+        nav ul {
+            background: rgb(255, 0, 0);
+            display: block;
+
+        }
+
+
+
+        body nav ul li a {
+            text-decoration: none;
+            font-size: 70px;
+            color: white;
+        }
+
+        nav li {
+
+            background: blue;
+            margin-right: 80px;
+            display: inline-block;
+
+
+            list-style: none;
+        }
+
+        nav a:hover {
+            background: rgba(0, 0, 0, 0.5);
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="option"><a href="aula01.html">Home</a></li>
+            <li class="option"><a href="aula02.html">Aula 02</a></li>
+            <li class="option"><a href="aula03html">Aula 03</a></li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!-- https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model -->
+<!-- a section pede um heading (h1 a h6), para confluir com a semântica -->
+<!-- ordem de valores no css: top right bottom -->
+<!-- valores para uma borda aparecer: width, color, style -->
+<!-- box-sizing: border-box (borda e margin não afetarão o tamanho final da soma dos elementos) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .section-one {
+            background: rgb(178, 95, 216);
+            width: 600px;
+            height: 350px;
+            font-size: 30px;
+            background-image: url(https://img.freepik.com/premium-photo/ethereum-coin-wallpaper_1562-116.jpg);
+            color: aliceblue;
+            margin: 0px;
+            border-bottom-width: 10px;
+            border-bottom-color: red;
+            border-bottom-style: solid;
+            border-bottom-left-radius: 10px;
+            background-position: right bottom;
+
+        }
+
+        .section-two {
+            background: rgb(102, 245, 245);
+        }
+
+        .section-one,
+        .section-two {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section-one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, voluptas repellat?
+        Voluptatem ipsam nostrum eveniet assumenda quis expedita tenetur sunt inventore. Ad saepe veritatis sed aliquam
+        officiis. Fuga, laboriosam aperiam.</section>
+    <section class="section-two">DOIS</section>
+
+</body>
+
+</html>

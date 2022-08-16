@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        label {
+
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">Types do HTML</a><br>
+    <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Forms/How_to_structure_a_web_form" target="_blank">Como
+        estruturar um formulário HTML</a>
+
+    <form action="#" method="get" target="" autocomplete="off">
+        <p>O meu formulário</p>
+        <p>
+            <label for="nome">
+                Nome:
+            </label>
+            <input type="text" id="nome" name="nome" placeholder="Seu Nome">
+        </p>
+        <p>Qual o seu Gênero?</p>
+        <p>
+            <label for="feminino">
+                Feminino
+            </label>
+            <input type="radio" id="feminino" name="genero" value="feminino">
+
+            <label for="masculino">
+                Masculino
+                <input type="radio" id="masculino" name="genero" value="masculino">
+            </label>
+        </p>
+        <p>
+            <label for="data">Date:</label>
+            <input type="date" id="data" name="data" value="2020-04-20">
+        </p>
+
+        <p>
+            <label for="datetime">Date:</label>
+            <input type="datetime-local" id="datetime" name="datetime" value="2020-04-20T10:00">
+        </p>
+        <!-- envio de emails -->
+        <p>
+            <label for="email">Coloque seu email para começar</label><br>
+            <input type="email" id="email" name="email" placeholder="ex.: email@email.com">
+        </p>
+
+        <!-- envio de arquivos -->
+        <p>
+            <label for="file">Envie sua foto:</label><br>
+            <input type="file" id="file" name="file" accept=".png,image/*">
+        </p>
+
+        <!-- coleta de números  -->
+        <p>
+            <label for="number">Números</label><br>
+            <input type="number" id="number" name="number" min="1" max="10">
+        </p>
+
+        <!-- criação de senhas -->
+        <p>
+            <label for="password">Senha:</label><br>
+            <input type="password" id="password" name="password" placeholder="digite sua senha aqui">
+        </p>
+
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </p>
+
+
+    </form>
+
+</body>
+
+</html>
+
+<!-- não é permitido aninhar formulários -->
+<!-- o form deve receber um action(enviar o formulário para onde) e method especificado -->
+<!-- placeholder no formulário: texto de exemplo -->
+<!-- buttons: type reset ou submit -->
