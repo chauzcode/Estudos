@@ -1,0 +1,48 @@
+<!-- a ordem dos seletores importa, em caso de empate, o último será aplicado -->
+<!-- hierarquia de especificidade
+ID
+Classes, atributos e pseudo-classes
+Elementos e pseudo-elementos -->
+
+ID Classes, atributos e pseudo-classes Elementos e pseudo-elementos
+
+é levado em conta na somatória:
+especificidade
+empate
+style
+!important
+
+<!-- initial: desativa a herança de propriedades nas childrens. Inhert herda do pai. -->
+<!--  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: red;
+            font-size: 20px;
+            box-sizing: border-box;
+        }
+
+        body h1 {
+            color: initial;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="texto">
+        <h1>Teste</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deleniti quisquam earum magnam, ea
+            officia excepturi, dolore asperiores odio itaque, reprehenderit sed corporis. Corrupti fuga odit libero
+            beatae impedit non!</p>
+    </div>
+
+</body>
+
+</html>

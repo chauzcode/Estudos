@@ -1,0 +1,23 @@
+
+html{
+    font: size 62.5%;
+    scroll-behavior: smooth;
+}
+#pai{
+    width: 50rem;
+}
+    .pai{
+        height: 30rem;
+        background: yellow;
+        overflow: hidden;
+    }
+    p{
+        font-size: 1.6rem;
+    }
+
+    .color-one{
+        background: turquoise;
+    }
+    .color-two{
+        background: violet;
+    }

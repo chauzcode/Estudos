@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body ul li {
+            color: red;
+        }
+
+        /* pseudo-classes: hover é quando o mouse flutua emcima do elemento */
+        li:hover {
+            background: black;
+        }
+
+        /* fazer o inverso, negar uma coisa, utilizado a pseudo-classe :not */
+        input:not(:checked)+p {
+            background: yellow;
+        }
+
+        /* selecionar childrens diretamente no css pela pseudo classe nth-child */
+        /* even(seleciona pares) odd(ímpares) */
+        ul li:nth-child(even) {
+            background-color: blueviolet;
+        }
+
+        /* pseudoelementos: adiciona um elemento a mais na página */
+    </style>
+</head>
+
+<body>
+    <main>
+        <input type="checkbox">
+        <p>Rafa</p>
+    </main>
+</body>
+<ul>
+    <li>A</li>
+    <li>b</li>
+    <li>c</li>
+    <li>d</li>
+    <li>e</li>
+</ul>
+
+</html>
+
+<!-- pseudoclasses = refletem o estado de um elemento, estado clicado,
+     estado passando o mouse emcima, etc -->
+
+<!-- https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes -->
